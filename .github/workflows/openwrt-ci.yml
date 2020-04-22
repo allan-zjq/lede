@@ -20,12 +20,12 @@ jobs:
 
   build_openwrt:
 
-    name: Build OpenWrt and release
+    name: Build OpenWrt 
     runs-on: ubuntu-18.04
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
         with:
           ref: master
 
